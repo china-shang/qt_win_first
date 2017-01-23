@@ -1,0 +1,6 @@
+QT_5.7
+moc*
+*.o
+qrc_myclass.cpp
+
+.qmake.stash
