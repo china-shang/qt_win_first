@@ -10,5 +10,6 @@ int main(int argc, char *argv[])
     //other thing
     w.show();
     QObject:: connect(button,&QPushButton::pressed,&QApplication::quit);
+    //some thing
     return a.exec();
 }
