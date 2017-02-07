@@ -8,5 +8,6 @@ int main(int argc, char *argv[])
     MyClass w;
     QPushButton *button = new QPushButton("quit", &w);
     w.show();
+    QObject:: connect(button,&QPushButton::pressed,&QApplication::quit);
     return a.exec();
 }
